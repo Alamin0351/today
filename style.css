@@ -9,7 +9,7 @@ h1 {
 }
 .orange {color: orange}
 
-section{
+.flexible-container{
     display: flex;
     margin-bottom:100px;
 }
@@ -40,3 +40,23 @@ a {
     background-repeat: no-repeat;
     background-position: right;
 }
+.shadow {
+    box-shadow: 5px 5px 30px gray;
+    width: 40%;
+    margin:10px 20px;
+    border-radius: 10px;
+}
+
+.experiences {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    
+}
+
+footer{
+    color: tomato;
+    text-align:center;
+    font-size: 20px;
+}
+
